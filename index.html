@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link ref="stylesheet"> href="style.css">
+    <title> Math Fun - SPROD! </title>
+</head>
+
+<body onload="test()"> 
+
+    <h1> Welcome to SPROD - math operations bingo! </h1>
+    <h5> instructions:
+        <ol> 
+            <li>roll the dice!</li>
+            <li>choose an operation which, when used with your numbers, will result in a number on your grid <ul>
+                <li>S for Sum</li>
+                <li>D for Difference</li>
+                <li>P for Product</li>
+                <li>Q for Quotient</li>
+                <li>N for None</li>
+            </ul>
+            </li>
+           <li>cover the whole grid using as few rolls as possible!</li>
+        </ol>
+    </h5>
+    <hr>
+
+    <p id="grid-message"></p>
+    <table border = "1">
+        <tr align = "center">
+            <td width = "20"> <span id="b00"></span> </td>
+            <td width = "20"> <span id="b01"></span> </td>
+            <td width = "20"> <span id="b02"></span> </td>
+        </tr>
+        <tr align = "center">
+            <td> <span id="b10"></span> </td>
+            <td> <span id="b11"></span> </td>
+            <td> <span id="b12"></span> </td>
+        </tr>
+        <tr align = "center">
+            <td> <span id="b20"></span> </td>
+            <td> <span id="b21"></span> </td>
+            <td> <span id="b22"></span> </td>
+        </tr>
+    </table>
+    
+    <script src="main.js"></script> 
+</body>
+
+</html>
